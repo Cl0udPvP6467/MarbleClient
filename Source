@@ -1,0 +1,1322 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local MarbleClient = Instance.new("TextLabel")
+local Infinitejump = Instance.new("TextButton")
+local Nofog = Instance.new("TextButton")
+local Reset = Instance.new("TextButton")
+local Waterwalk = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Speedvalue = Instance.new("TextBox")
+local Teleport = Instance.new("TextButton")
+local Wood = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local ByDarcyPineapple84 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Dupe = Instance.new("TextButton")
+local MaxLand = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local DupeFrame = Instance.new("Frame")
+local AxeDupe = Instance.new("TextButton")
+local SaveSlot = Instance.new("TextButton")
+local LoadSlot = Instance.new("TextButton")
+local DupeMoney = Instance.new("TextButton")
+local Slot = Instance.new("TextBox")
+local PlayerMenu = Instance.new("TextButton")
+local WoodFrame = Instance.new("Frame")
+local PlayerMenu2 = Instance.new("TextButton")
+local Generic = Instance.new("TextButton")
+local CaveCrawler = Instance.new("TextButton")
+local Volcano = Instance.new("TextButton")
+local Zombie = Instance.new("TextButton")
+local Gold = Instance.new("TextButton")
+local Oak = Instance.new("TextButton")
+local Fir = Instance.new("TextButton")
+local Koa = Instance.new("TextButton")
+local Palm = Instance.new("TextButton")
+local Birch = Instance.new("TextButton")
+local Cherry = Instance.new("TextButton")
+local GlowFir = Instance.new("TextButton")
+local Frost = Instance.new("TextButton")
+local Walnut = Instance.new("TextButton")
+local Elm = Instance.new("TextButton")
+local PlrBase = Instance.new("TextButton")
+local Pine = Instance.new("TextButton")
+local PlrTpTxt = Instance.new("TextBox")
+local TPWood = Instance.new("TextButton")
+local TeleportFrame = Instance.new("Frame")
+local PlayerMenu3 = Instance.new("TextButton")
+local WoodRUs = Instance.new("TextButton")
+local Furnishings = Instance.new("TextButton")
+local LogicShop = Instance.new("TextButton")
+local LandStore = Instance.new("TextButton")
+local BobsShack = Instance.new("TextButton")
+local ArtsShop = Instance.new("TextButton")
+local PowerShop = Instance.new("TextButton")
+local CarTeleport = Instance.new("TextLabel")
+local BoxedCar = Instance.new("TextButton")
+local BoxedCar2 = Instance.new("TextButton")
+local WoodRUs2 = Instance.new("TextButton")
+local Furnishings2 = Instance.new("TextButton")
+local PowerShop2 = Instance.new("TextButton")
+local ArtsShop2 = Instance.new("TextButton")
+local BobsShack2 = Instance.new("TextButton")
+local LandStore2 = Instance.new("TextButton")
+local LogicShop2 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Main.BorderColor3 = Color3.fromRGB(0, 255, 204)
+Main.BorderSizePixel = 2
+Main.Position = UDim2.new(0.096153833, 0, 0.217028365, 0)
+Main.Size = UDim2.new(0, 255, 0, 310)
+Main.Visible = false
+Main.Active = true
+Main.Selectable = true
+Main.Draggable = true
+
+MarbleClient.Name = "MarbleClient"
+MarbleClient.Parent = Main
+MarbleClient.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+MarbleClient.BorderColor3 = Color3.fromRGB(45, 45, 45)
+MarbleClient.Position = UDim2.new(0.0235294122, 0, 0.022580646, 0)
+MarbleClient.Size = UDim2.new(0, 243, 0, 43)
+MarbleClient.Font = Enum.Font.Antique
+MarbleClient.Text = "Marble Client v2"
+MarbleClient.TextColor3 = Color3.fromRGB(0, 255, 200)
+MarbleClient.TextSize = 30.000
+
+Infinitejump.Name = "Infinitejump"
+Infinitejump.Parent = Main
+Infinitejump.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Infinitejump.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Infinitejump.Position = UDim2.new(0.117647067, 0, 0.193548381, 0)
+Infinitejump.Size = UDim2.new(0, 80, 0, 30)
+Infinitejump.Font = Enum.Font.SciFi
+Infinitejump.Text = "Infinite Jump"
+Infinitejump.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infinitejump.TextSize = 14.000
+
+Nofog.Name = "Nofog"
+Nofog.Parent = Main
+Nofog.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Nofog.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Nofog.Position = UDim2.new(0.117647082, 0, 0.496774197, 0)
+Nofog.Size = UDim2.new(0, 80, 0, 30)
+Nofog.Font = Enum.Font.SciFi
+Nofog.Text = "No Fog"
+Nofog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nofog.TextSize = 14.000
+
+Reset.Name = "Reset"
+Reset.Parent = Main
+Reset.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Reset.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Reset.Position = UDim2.new(0.117647082, 0, 0.651612937, 0)
+Reset.Size = UDim2.new(0, 80, 0, 30)
+Reset.Font = Enum.Font.SciFi
+Reset.Text = "Reset"
+Reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reset.TextSize = 14.000
+
+Waterwalk.Name = "Waterwalk"
+Waterwalk.Parent = Main
+Waterwalk.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Waterwalk.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Waterwalk.Position = UDim2.new(0.117647052, 0, 0.345161378, 0)
+Waterwalk.Size = UDim2.new(0, 80, 0, 30)
+Waterwalk.Font = Enum.Font.SciFi
+Waterwalk.Text = "Water Walk"
+Waterwalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+Waterwalk.TextSize = 14.000
+
+Speed.Name = "Speed"
+Speed.Parent = Main
+Speed.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Speed.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Speed.Position = UDim2.new(0.117647059, 0, 0.800000012, 0)
+Speed.Size = UDim2.new(0, 80, 0, 30)
+Speed.Font = Enum.Font.SciFi
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextSize = 14.000
+
+Speedvalue.Name = "Speedvalue"
+Speedvalue.Parent = Main
+Speedvalue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speedvalue.Position = UDim2.new(0.529411793, 0, 0.800000012, 0)
+Speedvalue.Size = UDim2.new(0, 80, 0, 30)
+Speedvalue.Font = Enum.Font.SciFi
+Speedvalue.PlaceholderText = "Speed Value"
+Speedvalue.Text = ""
+Speedvalue.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speedvalue.TextSize = 14.000
+Speedvalue.TextWrapped = true
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Main
+Teleport.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Teleport.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Teleport.Position = UDim2.new(0.529411793, 0, 0.290322602, 0)
+Teleport.Size = UDim2.new(0, 80, 0, 30)
+Teleport.Font = Enum.Font.SciFi
+Teleport.Text = "Teleport"
+Teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.TextSize = 14.000
+Teleport.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Open.Visible = false
+	TeleportFrame.Visible = true
+end)
+
+Wood.Name = "Wood"
+Wood.Parent = Main
+Wood.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Wood.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Wood.Position = UDim2.new(0.529411793, 0, 0.42258063, 0)
+Wood.Size = UDim2.new(0, 80, 0, 30)
+Wood.Font = Enum.Font.SciFi
+Wood.Text = "Wood"
+Wood.TextColor3 = Color3.fromRGB(255, 255, 255)
+Wood.TextSize = 14.000
+Wood.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Open.Visible = false
+	WoodFrame.Visible = true
+end)
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Main
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.Position = UDim2.new(0.816078365, 0, 0.022580646, 0)
+Minimize.Size = UDim2.new(0, 20, 0, 20)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.TextSize = 25.000
+Minimize.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Open.Visible = true
+end)
+
+ByDarcyPineapple84.Name = "ByDarcyPineapple84"
+ByDarcyPineapple84.Parent = Main
+ByDarcyPineapple84.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ByDarcyPineapple84.BorderColor3 = Color3.fromRGB(45, 45, 45)
+ByDarcyPineapple84.Position = UDim2.new(0.501960814, 0, 0.132258072, 0)
+ByDarcyPineapple84.Size = UDim2.new(0, 108, 0, 43)
+ByDarcyPineapple84.Font = Enum.Font.Antique
+ByDarcyPineapple84.Text = "By DarcyPineapple84"
+ByDarcyPineapple84.TextColor3 = Color3.fromRGB(180, 204, 255)
+ByDarcyPineapple84.TextSize = 20.000
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.Position = UDim2.new(0.898039222, 0, 0.022580646, 0)
+Close.Size = UDim2.new(0, 20, 0, 20)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 20.000
+Close.MouseButton1Down:connect(function()
+	Main:Destroy()
+end)
+
+Dupe.Name = "Dupe"
+Dupe.Parent = Main
+Dupe.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Dupe.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Dupe.Position = UDim2.new(0.529411793, 0, 0.554838717, 0)
+Dupe.Size = UDim2.new(0, 80, 0, 30)
+Dupe.Font = Enum.Font.SciFi
+Dupe.Text = "Dupe"
+Dupe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dupe.TextSize = 14.000
+Dupe.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Open.Visible = false
+	DupeFrame.Visible = true
+end)
+
+MaxLand.Name = "MaxLand"
+MaxLand.Parent = Main
+MaxLand.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+MaxLand.BorderColor3 = Color3.fromRGB(80, 80, 80)
+MaxLand.Position = UDim2.new(0.529411793, 0, 0.687096775, 0)
+MaxLand.Size = UDim2.new(0, 80, 0, 26)
+MaxLand.Font = Enum.Font.SciFi
+MaxLand.Text = "Max Land"
+MaxLand.TextColor3 = Color3.fromRGB(255, 255, 255)
+MaxLand.TextSize = 14.000
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Open.BorderColor3 = Color3.fromRGB(0, 255, 210)
+Open.BorderSizePixel = 2
+Open.Position = UDim2.new(0.907215953, 0, 0.415692866, 0)
+Open.Size = UDim2.new(0, 67, 0, 29)
+Open.Font = Enum.Font.SciFi
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 18.000
+Open.MouseButton1Down:connect(function()
+	Main.Visible = true
+	Open.Visible = false
+end)
+
+DupeFrame.Name = "DupeFrame"
+DupeFrame.Parent = ScreenGui
+DupeFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+DupeFrame.BorderColor3 = Color3.fromRGB(0, 255, 200)
+DupeFrame.BorderSizePixel = 2
+DupeFrame.Position = UDim2.new(0.100775197, 0, 0.228714526, 0)
+DupeFrame.Size = UDim2.new(0, 243, 0, 296)
+DupeFrame.Visible = false
+DupeFrame.Active = true
+DupeFrame.Selectable = true
+DupeFrame.Draggable = true
+
+AxeDupe.Name = "AxeDupe"
+AxeDupe.Parent = DupeFrame
+AxeDupe.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+AxeDupe.BorderColor3 = Color3.fromRGB(80, 80, 80)
+AxeDupe.Position = UDim2.new(0.292181075, 0, 0.152027026, 0)
+AxeDupe.Size = UDim2.new(0, 100, 0, 40)
+AxeDupe.Font = Enum.Font.SciFi
+AxeDupe.Text = "Axe Dupe"
+AxeDupe.TextColor3 = Color3.fromRGB(255, 255, 255)
+AxeDupe.TextSize = 18.000
+
+SaveSlot.Name = "SaveSlot"
+SaveSlot.Parent = DupeFrame
+SaveSlot.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+SaveSlot.BorderColor3 = Color3.fromRGB(80, 80, 80)
+SaveSlot.Position = UDim2.new(0.0411522537, 0, 0.378378391, 0)
+SaveSlot.Size = UDim2.new(0, 70, 0, 30)
+SaveSlot.Font = Enum.Font.SciFi
+SaveSlot.Text = "Load Slot"
+SaveSlot.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveSlot.TextSize = 12.000
+
+LoadSlot.Name = "LoadSlot"
+LoadSlot.Parent = DupeFrame
+LoadSlot.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+LoadSlot.BorderColor3 = Color3.fromRGB(80, 80, 80)
+LoadSlot.Position = UDim2.new(0.374485612, 0, 0.378378391, 0)
+LoadSlot.Size = UDim2.new(0, 60, 0, 30)
+LoadSlot.Font = Enum.Font.SciFi
+LoadSlot.Text = "Save Slot"
+LoadSlot.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadSlot.TextSize = 12.000
+
+DupeMoney.Name = "DupeMoney"
+DupeMoney.Parent = DupeFrame
+DupeMoney.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+DupeMoney.BorderColor3 = Color3.fromRGB(80, 80, 80)
+DupeMoney.Position = UDim2.new(0.67078191, 0, 0.378378391, 0)
+DupeMoney.Size = UDim2.new(0, 70, 0, 30)
+DupeMoney.Font = Enum.Font.SciFi
+DupeMoney.Text = "Money Dupe"
+DupeMoney.TextColor3 = Color3.fromRGB(255, 255, 255)
+DupeMoney.TextSize = 12.000
+
+Slot.Name = "Slot"
+Slot.Parent = DupeFrame
+Slot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot.Position = UDim2.new(0.374485582, 0, 0.543918908, 0)
+Slot.Size = UDim2.new(0, 60, 0, 30)
+Slot.Font = Enum.Font.SciFi
+Slot.PlaceholderText = "Slot"
+Slot.Text = ""
+Slot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slot.TextSize = 14.000
+
+PlayerMenu.Name = "PlayerMenu"
+PlayerMenu.Parent = DupeFrame
+PlayerMenu.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PlayerMenu.BorderColor3 = Color3.fromRGB(80, 80, 80)
+PlayerMenu.Position = UDim2.new(0.292181075, 0, 0.814189196, 0)
+PlayerMenu.Size = UDim2.new(0, 100, 0, 35)
+PlayerMenu.Font = Enum.Font.SciFi
+PlayerMenu.Text = "Back to Menu"
+PlayerMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerMenu.TextSize = 16.000
+PlayerMenu.MouseButton1Down:connect(function()
+	Main.Visible = true
+	Open.Visible = false
+	DupeFrame.Visible = false
+end)
+
+WoodFrame.Name = "WoodFrame"
+WoodFrame.Parent = ScreenGui
+WoodFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+WoodFrame.BorderColor3 = Color3.fromRGB(0, 255, 200)
+WoodFrame.BorderSizePixel = 2
+WoodFrame.Position = UDim2.new(0.0983713567, 0, 0.228714526, 0)
+WoodFrame.Size = UDim2.new(0, 242, 0, 296)
+WoodFrame.Visible = false
+WoodFrame.Active = true
+WoodFrame.Selectable = true
+WoodFrame.Draggable = true
+
+PlayerMenu2.Name = "PlayerMenu2"
+PlayerMenu2.Parent = WoodFrame
+PlayerMenu2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PlayerMenu2.Position = UDim2.new(0.292181075, 0, 0.814189136, 0)
+PlayerMenu2.Size = UDim2.new(0, 100, 0, 35)
+PlayerMenu2.Font = Enum.Font.SciFi
+PlayerMenu2.Text = "Back to Menu"
+PlayerMenu2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerMenu2.TextSize = 16.000
+PlayerMenu2.MouseButton1Down:connect(function()
+	Main.Visible = true
+	Open.Visible = false
+	WoodFrame.Visible = false
+end)
+
+Generic.Name = "Generic"
+Generic.Parent = WoodFrame
+Generic.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Generic.Position = UDim2.new(0.0411522649, 0, 0.033783786, 0)
+Generic.Size = UDim2.new(0, 50, 0, 30)
+Generic.Font = Enum.Font.SciFi
+Generic.Text = "Generic"
+Generic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Generic.TextSize = 14.000
+
+CaveCrawler.Name = "CaveCrawler"
+CaveCrawler.Parent = WoodFrame
+CaveCrawler.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+CaveCrawler.Position = UDim2.new(0.275720179, 0, 0.155405462, 0)
+CaveCrawler.Size = UDim2.new(0, 50, 0, 30)
+CaveCrawler.Font = Enum.Font.SciFi
+CaveCrawler.Text = "Cave"
+CaveCrawler.TextColor3 = Color3.fromRGB(255, 255, 255)
+CaveCrawler.TextSize = 14.000
+
+Volcano.Name = "Volcano"
+Volcano.Parent = WoodFrame
+Volcano.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Volcano.Position = UDim2.new(0.0411522649, 0, 0.402027041, 0)
+Volcano.Size = UDim2.new(0, 50, 0, 30)
+Volcano.Font = Enum.Font.SciFi
+Volcano.Text = "Fire"
+Volcano.TextColor3 = Color3.fromRGB(255, 255, 255)
+Volcano.TextSize = 14.000
+
+Zombie.Name = "Zombie"
+Zombie.Parent = WoodFrame
+Zombie.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Zombie.Position = UDim2.new(0.74485594, 0, 0.277027041, 0)
+Zombie.Size = UDim2.new(0, 50, 0, 30)
+Zombie.Font = Enum.Font.SciFi
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zombie.TextSize = 14.000
+
+Gold.Name = "Gold"
+Gold.Parent = WoodFrame
+Gold.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Gold.Position = UDim2.new(0.51028806, 0, 0.277027041, 0)
+Gold.Size = UDim2.new(0, 50, 0, 30)
+Gold.Font = Enum.Font.SciFi
+Gold.Text = "Gold"
+Gold.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gold.TextSize = 14.000
+
+Oak.Name = "Oak"
+Oak.Parent = WoodFrame
+Oak.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Oak.Position = UDim2.new(0.275720179, 0, 0.277027041, 0)
+Oak.Size = UDim2.new(0, 50, 0, 30)
+Oak.Font = Enum.Font.SciFi
+Oak.Text = "Oak"
+Oak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Oak.TextSize = 14.000
+
+Fir.Name = "Fir"
+Fir.Parent = WoodFrame
+Fir.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Fir.Position = UDim2.new(0.0411522649, 0, 0.277027041, 0)
+Fir.Size = UDim2.new(0, 50, 0, 30)
+Fir.Font = Enum.Font.SciFi
+Fir.Text = "Fir"
+Fir.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fir.TextSize = 14.000
+
+Koa.Name = "Koa"
+Koa.Parent = WoodFrame
+Koa.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Koa.Position = UDim2.new(0.74485594, 0, 0.155405402, 0)
+Koa.Size = UDim2.new(0, 50, 0, 30)
+Koa.Font = Enum.Font.SciFi
+Koa.Text = "Koa"
+Koa.TextColor3 = Color3.fromRGB(255, 255, 255)
+Koa.TextSize = 14.000
+
+Palm.Name = "Palm"
+Palm.Parent = WoodFrame
+Palm.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Palm.Position = UDim2.new(0.51028806, 0, 0.155405402, 0)
+Palm.Size = UDim2.new(0, 50, 0, 30)
+Palm.Font = Enum.Font.SciFi
+Palm.Text = "Palm"
+Palm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Palm.TextSize = 14.000
+
+Birch.Name = "Birch"
+Birch.Parent = WoodFrame
+Birch.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Birch.Position = UDim2.new(0.275720149, 0, 0.402027011, 0)
+Birch.Size = UDim2.new(0, 50, 0, 30)
+Birch.Font = Enum.Font.SciFi
+Birch.Text = "Birch"
+Birch.TextColor3 = Color3.fromRGB(255, 255, 255)
+Birch.TextSize = 14.000
+
+Cherry.Name = "Cherry"
+Cherry.Parent = WoodFrame
+Cherry.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Cherry.Position = UDim2.new(0.0411522649, 0, 0.155405402, 0)
+Cherry.Size = UDim2.new(0, 50, 0, 30)
+Cherry.Font = Enum.Font.SciFi
+Cherry.Text = "Cherry"
+Cherry.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cherry.TextSize = 14.000
+
+GlowFir.Name = "Glow Fir"
+GlowFir.Parent = WoodFrame
+GlowFir.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+GlowFir.Position = UDim2.new(0.74485594, 0, 0.033783786, 0)
+GlowFir.Size = UDim2.new(0, 50, 0, 30)
+GlowFir.Font = Enum.Font.SciFi
+GlowFir.Text = "Glow Fir"
+GlowFir.TextColor3 = Color3.fromRGB(255, 255, 255)
+GlowFir.TextSize = 14.000
+
+Frost.Name = "Frost"
+Frost.Parent = WoodFrame
+Frost.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Frost.Position = UDim2.new(0.51028806, 0, 0.033783786, 0)
+Frost.Size = UDim2.new(0, 50, 0, 30)
+Frost.Font = Enum.Font.SciFi
+Frost.Text = "Frost"
+Frost.TextColor3 = Color3.fromRGB(255, 255, 255)
+Frost.TextSize = 14.000
+
+Walnut.Name = "Walnut"
+Walnut.Parent = WoodFrame
+Walnut.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Walnut.Position = UDim2.new(0.275720179, 0, 0.033783786, 0)
+Walnut.Size = UDim2.new(0, 50, 0, 30)
+Walnut.Font = Enum.Font.SciFi
+Walnut.Text = "Walnut"
+Walnut.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walnut.TextSize = 14.000
+
+Elm.Name = "Elm"
+Elm.Parent = WoodFrame
+Elm.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Elm.Position = UDim2.new(0.51028806, 0, 0.402027041, 0)
+Elm.Size = UDim2.new(0, 50, 0, 30)
+Elm.Font = Enum.Font.SciFi
+Elm.Text = "Elm"
+Elm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Elm.TextSize = 14.000
+
+PlrBase.Name = "PlrBase"
+PlrBase.Parent = WoodFrame
+PlrBase.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PlrBase.Position = UDim2.new(0.191136867, 0, 0.543918908, 0)
+PlrBase.Size = UDim2.new(0, 70, 0, 30)
+PlrBase.Font = Enum.Font.SciFi
+PlrBase.Text = "Base"
+PlrBase.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrBase.TextSize = 14.000
+
+Pine.Name = "Pine"
+Pine.Parent = WoodFrame
+Pine.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Pine.Position = UDim2.new(0.74169302, 0, 0.402027041, 0)
+Pine.Size = UDim2.new(0, 50, 0, 30)
+Pine.Font = Enum.Font.SciFi
+Pine.Text = "Pine"
+Pine.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pine.TextSize = 14.000
+
+PlrTpTxt.Name = "PlrTpTxt"
+PlrTpTxt.Parent = WoodFrame
+PlrTpTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlrTpTxt.Position = UDim2.new(0.509318709, 0, 0.543918908, 0)
+PlrTpTxt.Size = UDim2.new(0, 107, 0, 30)
+PlrTpTxt.Font = Enum.Font.SciFi
+PlrTpTxt.PlaceholderText = "Player"
+PlrTpTxt.Text = ""
+PlrTpTxt.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlrTpTxt.TextSize = 14.000
+
+TPWood.Name = "TP Wood"
+TPWood.Parent = WoodFrame
+TPWood.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TPWood.BorderColor3 = Color3.fromRGB(27, 42, 52)
+TPWood.Position = UDim2.new(0.190082639, 0, 0.672297299, 0)
+TPWood.Size = UDim2.new(0, 70, 0, 30)
+TPWood.Font = Enum.Font.SciFi
+TPWood.Text = "TP Wood"
+TPWood.TextColor3 = Color3.fromRGB(255, 255, 255)
+TPWood.TextSize = 14.000
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = ScreenGui
+TeleportFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TeleportFrame.BorderColor3 = Color3.fromRGB(0, 255, 200)
+TeleportFrame.BorderSizePixel = 2
+TeleportFrame.Position = UDim2.new(0.101636522, 0, 0.220367283, 0)
+TeleportFrame.Size = UDim2.new(0, 250, 0, 296)
+TeleportFrame.Visible = false
+TeleportFrame.Active = true
+TeleportFrame.Selectable = true
+TeleportFrame.Draggable = true
+
+PlayerMenu3.Name = "PlayerMenu3"
+PlayerMenu3.Parent = TeleportFrame
+PlayerMenu3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PlayerMenu3.BorderColor3 = Color3.fromRGB(80, 80, 80)
+PlayerMenu3.Position = UDim2.new(0.29491359, 0, 0.810810804, 0)
+PlayerMenu3.Size = UDim2.new(0, 100, 0, 35)
+PlayerMenu3.Font = Enum.Font.SciFi
+PlayerMenu3.Text = "Back To Menu"
+PlayerMenu3.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerMenu3.TextSize = 16.000
+PlayerMenu3.MouseButton1Down:connect(function()
+	Main.Visible = true
+	Open.Visible = false
+	TeleportFrame.Visible = false
+end)
+
+WoodRUs.Name = "WoodRUs"
+WoodRUs.Parent = TeleportFrame
+WoodRUs.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+WoodRUs.BorderColor3 = Color3.fromRGB(80, 80, 80)
+WoodRUs.Position = UDim2.new(0.271720201, 0, 0.0337837823, 0)
+WoodRUs.Size = UDim2.new(0, 53, 0, 30)
+WoodRUs.Font = Enum.Font.SciFi
+WoodRUs.Text = "Wood R Us"
+WoodRUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+WoodRUs.TextSize = 10.000
+
+Furnishings.Name = "Furnishings"
+Furnishings.Parent = TeleportFrame
+Furnishings.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Furnishings.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Furnishings.Position = UDim2.new(0.510172844, 0, 0.0337837823, 0)
+Furnishings.Size = UDim2.new(0, 53, 0, 30)
+Furnishings.Font = Enum.Font.SciFi
+Furnishings.Text = "Furnishings"
+Furnishings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Furnishings.TextSize = 10.000
+
+LogicShop.Name = "LogicShop"
+LogicShop.Parent = TeleportFrame
+LogicShop.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+LogicShop.BorderColor3 = Color3.fromRGB(80, 80, 80)
+LogicShop.Position = UDim2.new(0.0331522226, 0, 0.155405357, 0)
+LogicShop.Size = UDim2.new(0, 53, 0, 30)
+LogicShop.Font = Enum.Font.SciFi
+LogicShop.Text = "Link's Logic"
+LogicShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogicShop.TextSize = 10.000
+
+LandStore.Name = "LandStore"
+LandStore.Parent = TeleportFrame
+LandStore.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+LandStore.BorderColor3 = Color3.fromRGB(80, 80, 80)
+LandStore.Position = UDim2.new(0.271720201, 0, 0.155405402, 0)
+LandStore.Size = UDim2.new(0, 53, 0, 30)
+LandStore.Font = Enum.Font.SciFi
+LandStore.Text = "Land Store"
+LandStore.TextColor3 = Color3.fromRGB(255, 255, 255)
+LandStore.TextSize = 10.000
+
+BobsShack.Name = "BobsShack"
+BobsShack.Parent = TeleportFrame
+BobsShack.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+BobsShack.BorderColor3 = Color3.fromRGB(80, 80, 80)
+BobsShack.Position = UDim2.new(0.510172844, 0, 0.155405402, 0)
+BobsShack.Size = UDim2.new(0, 53, 0, 30)
+BobsShack.Font = Enum.Font.SciFi
+BobsShack.Text = "Bob's Shack"
+BobsShack.TextColor3 = Color3.fromRGB(255, 255, 255)
+BobsShack.TextSize = 10.000
+
+ArtsShop.Name = "ArtsShop"
+ArtsShop.Parent = TeleportFrame
+ArtsShop.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ArtsShop.BorderColor3 = Color3.fromRGB(80, 80, 80)
+ArtsShop.Position = UDim2.new(0.752625465, 0, 0.155405402, 0)
+ArtsShop.Size = UDim2.new(0, 53, 0, 30)
+ArtsShop.Font = Enum.Font.SciFi
+ArtsShop.Text = "Art Shop"
+ArtsShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArtsShop.TextSize = 10.000
+
+PowerShop.Name = "PowerShop"
+PowerShop.Parent = TeleportFrame
+PowerShop.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PowerShop.BorderColor3 = Color3.fromRGB(80, 80, 80)
+PowerShop.Position = UDim2.new(0.752625465, 0, 0.0337837823, 0)
+PowerShop.Size = UDim2.new(0, 53, 0, 30)
+PowerShop.Font = Enum.Font.SciFi
+PowerShop.Text = "Power Guy"
+PowerShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+PowerShop.TextSize = 10.000
+
+CarTeleport.Name = "CarTeleport"
+CarTeleport.Parent = TeleportFrame
+CarTeleport.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+CarTeleport.BorderColor3 = Color3.fromRGB(45, 45, 45)
+CarTeleport.Position = UDim2.new(0.271720201, 0, 0.297297299, 0)
+CarTeleport.Size = UDim2.new(0, 112, 0, 40)
+CarTeleport.Font = Enum.Font.SciFi
+CarTeleport.Text = "Teleport With Car"
+CarTeleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+CarTeleport.TextSize = 14.000
+
+BoxedCar.Name = "BoxedCar"
+BoxedCar.Parent = TeleportFrame
+BoxedCar.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+BoxedCar.BorderColor3 = Color3.fromRGB(80, 80, 80)
+BoxedCar.Position = UDim2.new(0.0331522897, 0, 0.0337837636, 0)
+BoxedCar.Size = UDim2.new(0, 53, 0, 30)
+BoxedCar.Font = Enum.Font.SciFi
+BoxedCar.Text = "Boxed Car"
+BoxedCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxedCar.TextSize = 10.000
+
+BoxedCar2.Name = "BoxedCar2"
+BoxedCar2.Parent = TeleportFrame
+BoxedCar2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+BoxedCar2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+BoxedCar2.Position = UDim2.new(0.0331522897, 0, 0.469594568, 0)
+BoxedCar2.Size = UDim2.new(0, 53, 0, 30)
+BoxedCar2.Font = Enum.Font.SciFi
+BoxedCar2.Text = "Boxed Car"
+BoxedCar2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxedCar2.TextSize = 10.000
+
+WoodRUs2.Name = "WoodRUs2"
+WoodRUs2.Parent = TeleportFrame
+WoodRUs2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+WoodRUs2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+WoodRUs2.Position = UDim2.new(0.271720201, 0, 0.469594598, 0)
+WoodRUs2.Size = UDim2.new(0, 53, 0, 30)
+WoodRUs2.Font = Enum.Font.SciFi
+WoodRUs2.Text = "Wood R Us"
+WoodRUs2.TextColor3 = Color3.fromRGB(255, 255, 255)
+WoodRUs2.TextSize = 10.000
+
+Furnishings2.Name = "Furnishings2"
+Furnishings2.Parent = TeleportFrame
+Furnishings2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+Furnishings2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+Furnishings2.Position = UDim2.new(0.510172844, 0, 0.469594598, 0)
+Furnishings2.Size = UDim2.new(0, 53, 0, 30)
+Furnishings2.Font = Enum.Font.SciFi
+Furnishings2.Text = "Furnishings"
+Furnishings2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Furnishings2.TextSize = 10.000
+
+PowerShop2.Name = "PowerShop2"
+PowerShop2.Parent = TeleportFrame
+PowerShop2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+PowerShop2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+PowerShop2.Position = UDim2.new(0.752625465, 0, 0.469594598, 0)
+PowerShop2.Size = UDim2.new(0, 53, 0, 30)
+PowerShop2.Font = Enum.Font.SciFi
+PowerShop2.Text = "Power Guy"
+PowerShop2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PowerShop2.TextSize = 10.000
+
+ArtsShop2.Name = "ArtsShop2"
+ArtsShop2.Parent = TeleportFrame
+ArtsShop2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ArtsShop2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+ArtsShop2.Position = UDim2.new(0.752625465, 0, 0.591216207, 0)
+ArtsShop2.Size = UDim2.new(0, 53, 0, 30)
+ArtsShop2.Font = Enum.Font.SciFi
+ArtsShop2.Text = "Art Shop"
+ArtsShop2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArtsShop2.TextSize = 10.000
+
+BobsShack2.Name = "BobsShack2"
+BobsShack2.Parent = TeleportFrame
+BobsShack2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+BobsShack2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+BobsShack2.Position = UDim2.new(0.510172844, 0, 0.591216207, 0)
+BobsShack2.Size = UDim2.new(0, 53, 0, 30)
+BobsShack2.Font = Enum.Font.SciFi
+BobsShack2.Text = "Bob's Shack"
+BobsShack2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BobsShack2.TextSize = 10.000
+
+LandStore2.Name = "LandStore2"
+LandStore2.Parent = TeleportFrame
+LandStore2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+LandStore2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+LandStore2.Position = UDim2.new(0.271720201, 0, 0.591216207, 0)
+LandStore2.Size = UDim2.new(0, 53, 0, 30)
+LandStore2.Font = Enum.Font.SciFi
+LandStore2.Text = "Land Store"
+LandStore2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LandStore2.TextSize = 10.000
+
+LogicShop2.Name = "LogicShop2"
+LogicShop2.Parent = TeleportFrame
+LogicShop2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+LogicShop2.BorderColor3 = Color3.fromRGB(80, 80, 80)
+LogicShop2.Position = UDim2.new(0.0331522226, 0, 0.591216207, 0)
+LogicShop2.Size = UDim2.new(0, 53, 0, 30)
+LogicShop2.Font = Enum.Font.SciFi
+LogicShop2.Text = "Link's Logic"
+LogicShop2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogicShop2.TextSize = 10.000
+
+Infinitejump.MouseButton1Down:connect(function()
+	toggle = not toggle
+	Infinitejump.BorderColor3 = (toggle and Color3.fromRGB(115, 237, 255) or Color3.fromRGB(255,255,255))
+	Infinitejump.BorderSizePixel = (toggle and 2 or 0)
+	if toggle then
+		InfiniteJumpEnabled = true
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			if InfiniteJumpEnabled then
+				game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+				InfiniteJumpEnabled = true
+			end
+		end)
+
+	else
+		InfiniteJumpEnabled = false
+		game:GetService("UserInputService").JumpRequest:connect(function()
+			if InfiniteJumpEnabled then
+				game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+
+			end
+		end)
+	end
+end)
+
+Nofog.MouseButton1Down:connect(function()
+	game.Lighting.Changed:connect(function()
+		game.Lighting.TimeOfDay = "12:00:00"
+		game.Lighting.FogEnd = 9999
+		game.Lighting.Brightness = 2
+	end)
+end)
+
+Reset.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Head:Destroy()
+end)	
+
+Waterwalk.MouseButton1Click:Connect(function()
+	toggle = not toggle
+	Waterwalk.BorderColor3 = (toggle and Color3.fromRGB(115, 237, 255) or Color3.fromRGB(255,255,255))
+	Waterwalk.BorderSizePixel = (toggle and 2 or 0)
+	if toggle then
+		for index, water in pairs(game.Workspace.Water:GetChildren()) do
+			water.CanCollide = true
+		end
+	else
+		for index, water in pairs(game.Workspace.Water:GetChildren()) do
+			water.CanCollide = false
+		end
+	end
+end)
+
+Speed.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Speedvalue.Text
+	end
+end)
+
+MaxLand.MouseButton1Down:Connect(function()
+	for i, v in pairs(game:GetService("Workspace").Properties:GetChildren()) do
+		if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then
+			base = v
+			square = v.OriginSquare
+		end
+	end
+	function makebase(pos)
+		local Event = game:GetService("ReplicatedStorage").PropertyPurchasing.ClientExpandedProperty
+		Event:FireServer(base, pos)
+	end
+	spos = square.Position
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X, spos.Y, spos.Z - 80))
+	
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 80))
+	
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z + 80))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X + 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z + 40))
+	makebase(CFrame.new(spos.X - 80, spos.Y, spos.Z - 40))
+	makebase(CFrame.new(spos.X + 40, spos.Y, spos.Z - 80))
+	makebase(CFrame.new(spos.X - 40, spos.Y, spos.Z - 80))
+
+end)
+
+AxeDupe.MouseButton1Down:connect(function()
+	local plr = game:service'Players'.LocalPlayer
+
+	function SafeRespawn()
+		plr.Character.Head:Destroy()
+	end
+
+	function Dupe()
+		SafeRespawn()
+		for i,v in pairs(plr.Backpack:GetChildren()) do
+			if v.Name == "Tool" then
+				game:GetService("ReplicatedStorage").Interaction.ClientInteracted:FireServer(v,"Drop tool",plr.Character.Torso.CFrame * CFrame.new(0,5,0))
+			end
+		end
+	end
+
+	Dupe()
+end)
+
+local MoneyCooldown = false
+local CurrentSlot = game.Players.LocalPlayer:WaitForChild("CurrentSaveSlot").Value
+local ScriptLoadOrSave = false
+local CurrentlySavingOrLoading = game.Players.LocalPlayer:WaitForChild("CurrentlySavingOrLoading")
+
+local function CheckIfSlotAvailable(Slot)
+	for a,b in pairs(game.ReplicatedStorage.LoadSaveRequests.GetMetaData:InvokeServer(game.Players.LocalPlayer)) do
+		if a == Slot then
+			for c,d in pairs(b) do
+				if c == "NumSaves" and d ~= 0 then
+					return true
+				else
+					return false
+				end
+			end
+		end
+	end
+end
+
+local function CheckSlotNumber()
+	if Slot.Text == "1" or Slot.Text == "2" or Slot.Text == "3" or Slot.Text == "4" or Slot.Text == "5" or Slot.Text == "6" then
+		local SlotNumber = tonumber(Slot.Text)
+		return SlotNumber
+	else return false
+	end
+end
+
+local function SendNotification(Title,Text,Duration)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = Title;
+		Text = Text;
+		Icon = nil;
+		Duration = Duration
+	})
+end
+
+LoadSlot.MouseButton1Down:connect(function()
+	local CheckSlot = CheckSlotNumber()
+	if CheckSlot ~= false then
+		if CurrentSlot ~= -1 then
+			ScriptLoadOrSave = true
+			local SaveSlot = game.ReplicatedStorage.LoadSaveRequests.RequestSave:InvokeServer(CheckSlot)
+			if SaveSlot == true then
+				SendNotification("Marble", "Saved!!", 2)
+				wait(.5)
+				ScriptLoadOrSave = false
+			elseif SaveSlot == false then
+				SendNotification("Marble", "Already Saving!", 1)
+				wait(.5)
+				ScriptLoadOrSave = false
+			end
+		else
+			SendNotification("Marble", "Error! Your not Loading...", 1)
+		end
+	else
+		SendNotification("Marble", "Wait... Something's wrong!", 1)
+	end
+end)
+
+SaveSlot.MouseButton1Down:connect(function()
+	ScriptLoadOrSave = true
+	local CheckSlot = CheckSlotNumber()
+	if CheckSlot ~= false then
+		if CheckIfSlotAvailable(CheckSlot) == true then
+			local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(CheckSlot)
+			if LoadSlot == false then
+				SendNotification("Marble", "Cooldown! Please Wait...", 1)
+			end
+			if LoadSlot == true then
+				SendNotification("Marble", "Loaded!", 2)
+				CurrentSlot = CheckSlot
+			end
+		else
+			SendNotification("Marble", "Wait... Something's wrong!", 2)
+		end
+	else
+		SendNotification("Marble", "Wait... Something's wrong!", 2)
+	end
+	ScriptLoadOrSave = false
+end)
+
+DupeMoney.MouseButton1Down:connect(function()
+	if MoneyCooldown == true then
+		SendNotification("Marble", "Cooldown! Please Wait!",2)
+		return
+	elseif MoneyCooldown == false then
+		MoneyCooldown = true
+		SendNotification("Marble", "Duping...", 5)
+		wait(1)
+		SendNotification("Marble", "Now try to load your slot from Menu", 59)
+		game.ReplicatedStorage.Transactions.ClientToServer.Donate:InvokeServer(game.Players.LocalPlayer, game.Players.LocalPlayer.leaderstats.Money.Value, 1)
+		wait(55)
+		SendNotification("Marble", "Success!!", 5)
+		MoneyCooldown = false
+	end
+end)
+
+local ME = game.Players.LocalPlayer.Character.HumanoidRootPart
+PLR = PlrTpTxt.Text
+
+PlrBase.MouseButton1Down:connect(function()
+	local Plr = PlrTpTxt.Text
+	for i,v in pairs(game.Workspace.Properties:GetChildren()) do
+		if v.Owner.Value == game.Players[Plr] then
+			ME.CFrame = v.OriginSquare.CFrame + Vector3.new(0,10,0)
+		end
+	end
+end)
+
+Volcano.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Volcano"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+CaveCrawler.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(3581, -177, 430)
+end)
+
+Frost.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Frost"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+GlowFir.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "GlowFir"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Zombie.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "GreenSwampy"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Gold.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "GoldSwampy"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Oak.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Oak"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Cherry.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Cherry"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Pine.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Pine"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Fir.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Fir"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Koa.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Koa"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Generic.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Generic"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Elm.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Elm"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Birch.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Birch"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Palm.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Palm"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+Walnut.MouseButton1Down:connect(function()
+	for i, v in pairs(game.Workspace:GetChildren()) do
+		if v.Name == "TreeRegion" then
+			for j, k in ipairs(v:GetChildren()) do
+				if k:FindFirstChild("TreeClass") and k.TreeClass.Value == "Walnut"  then
+					game.Players.LocalPlayer.Character:MoveTo(k.WoodSection.Position)
+					break
+				end
+			end
+		end
+	end
+end)
+
+TPWood.MouseButton1Down:connect(function()
+	Ps = nil
+	for i, v in pairs(game.Workspace.Properties:GetChildren()) do
+		if v.Owner.Value == game.Players[WoodPlayer.Text] then
+			Ps = v.OriginSquare.Position + Vector3.new(0,30,0)
+		end
+	end
+	for _, Log in pairs(game.Workspace.LogModels:GetChildren()) do
+		if Log.Name:sub(1, 6) == "Loose_" and Log:findFirstChild("Owner") then
+			if Log.Owner.Value == game.Players.LocalPlayer then
+				Log:MoveTo(Ps)
+				for i=1,100 do
+					game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Log)
+				end
+			end
+		end
+	end
+end)
+
+PlrBase.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Workspace.Properties:GetChildren()) do
+		if v.Owner.Value == game.Players.LocalPlayer then
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.OriginSquare.CFrame + Vector3.new(0,10,0)
+		end
+	end
+end)
+
+WoodRUs.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(265, 3, 57)
+end)
+
+BoxedCar.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(509, 5.2, -1463)
+end)
+
+Furnishings.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(491, 5, -1720)
+end)
+
+LogicShop.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(4607, 6, -798)
+end)
+
+LandStore.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(258, 5, -99)
+end)
+
+BobsShack.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(260, 10, -2542)
+end)
+
+ArtsShop.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(5207, -156, 719)
+end)
+
+PowerShop.MouseButton1Down:connect(function()
+	ME.CFrame = CFrame.new(1061, 20, 1131)
+end)
+
+function TeleportCar(Pos)
+	if game.Players.LocalPlayer.Character then 
+		Character = game.Players.LocalPlayer.Character
+		if Character.Humanoid.SeatPart ~= nil then 
+			Car = Character.Humanoid.SeatPart.Parent
+			spawn(function()
+				for i=1,5 do
+					wait()
+					Car:SetPrimaryPartCFrame(Pos * CFrame.Angles(math.rad(Character.HumanoidRootPart.Orientation.x), math.rad(Character.HumanoidRootPart.Orientation.y), 0))
+					game.ReplicatedStorage.Interaction.ClientRequestOwnership:FireServer(Car.Main)
+					game.ReplicatedStorage.Interaction.ClientIsDragging:FireServer(Car.Main)
+				end
+			end)
+		end
+	end
+end
+
+WoodRUs2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(236, 3.4, 57))
+end)
+
+BoxedCar2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(509, 3.4, -1497))
+end)
+
+Furnishings2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(491, 13, -1720))
+end)
+
+LogicShop2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(4615, 3, -708))
+end)
+
+LandStore2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(258, 5, -99))
+end)
+
+BobsShack2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(222, 9.4, -2530))
+end)
+
+ArtsShop2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(5207, -166.5, 719))
+end)
+
+PowerShop2.MouseButton1Down:connect(function()
+	TeleportCar(CFrame.new(1061, 20, 1131))
+end)
